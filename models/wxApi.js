@@ -1,8 +1,8 @@
 /*
  * @Author: yuyongxing
  * @Date: 2022-04-18 22:20:40
- * @LastEditors: yuyongxing
- * @LastEditTime: 2022-04-21 23:26:37
+ * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2022-12-29 16:52:44
  * @Description: 
  */
 const axios = require("axios");
@@ -36,7 +36,7 @@ module.exports = {
     sendWxMessage: async (openid, access_token, title, desc) => {
         const json = {
             touser: openid,
-            template_id: 'Hzz2IF_rF59sOBDdVtrXntuTC4E98XLGUl6_PGUYBHg',
+            template_id: 'yMeH7QzldYLJlR1WeQ9QylxNN_lqopRcODU5ACRRQ-w',
             topcolor: "#FF0000",
             data: {
                 title: {
