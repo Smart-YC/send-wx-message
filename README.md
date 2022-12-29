@@ -6,11 +6,11 @@
 
 [https://framework.service.tcloudbase.com/express-starter/](https://framework.service.tcloudbase.com/express-starter/)
 
-点击下方按钮使用 [CloudBase Framework](https://github.com/Smart-YC/send-wx-message) 可以在云端一键部署本项目到自己的云开发账号上。
+点击下方按钮使用 [CloudBase Framework](https://github.com/TencentCloudBase/cloudbase-framework) 可以在云端一键部署本项目到自己的云开发账号上。
 
-[![](https://main.qcloudimg.com/raw/67f5a389f1ac6f3b4d04c7256438e44f.svg)](https://console.cloud.tencent.com/tcb/env/index?action=CreateAndDeployCloudBaseProject&tdl_anchor=github&tdl_site=0&appUrl=https://github.com/Smart-YC/send-wx-message&workDir=express-starter&appName=express-starter)
-
-## 部署一个 Express 应用
+[![](https://main.qcloudimg.com/raw/67f5a389f1ac6f3b4d04c7256438e44f.svg)](https://console.cloud.tencent.com/tcb/env/index?action=CreateAndDeployCloudBaseProject&tdl_anchor=github&tdl_site=0&appUrl=https%3A%2F%2Fgithub.com%2FTencentCloudBase%2Fcloudbase-templates&workDir=express-starter&appName=express-starter)
+arter)
+press 应用
 
 ### 步骤一. 准备工作
 
