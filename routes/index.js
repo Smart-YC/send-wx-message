@@ -2,7 +2,7 @@
  * @Author: yuyongxing
  * @Date: 2021-12-20 07:28:48
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2022-12-29 15:37:36
+ * @LastEditTime: 2022-12-30 17:36:27
  * @Description: 
  */
 const express = require("express");
@@ -24,7 +24,7 @@ router.get("/", function (req, res, next) {
 		const echostr = req.query.echostr; //获取微信请求参数echostr
 		res.send(echostr + ''); //正常返回请求参数echostr
 	} else {
-		res.send('验证失败');
+		res.send('验证失败:' + JSON.stringify(req) + '*****' + 'token:' + token);
 	}
 });
 

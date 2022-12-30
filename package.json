@@ -6,7 +6,10 @@
     "start": "node ./bin/www",
     "dev": "npm run start",
     "deploy": "tcb framework deploy",
-    "deploy:server": "tcb framework deploy node"
+    "deploy:server": "tcb framework deploy node",
+    "serve": "node ./index",
+    "test:mining": "node ./test/test-mining",
+    "test:juejin": "node ./test/test-juejin"
   },
   "dependencies": {
     "axios": "^0.26.1",
@@ -17,6 +20,8 @@
     "jade": "~1.11.0",
     "morgan": "~1.9.1",
     "node-sha1": "^1.0.1",
-    "urlencode": "^1.1.0"
+    "urlencode": "^1.1.0",
+    "dotenv": "^10.0.0",
+    "jsonwebtoken": "^8.5.1"
   }
 }
