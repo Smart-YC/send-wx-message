@@ -6,10 +6,7 @@
     "start": "node ./bin/www",
     "dev": "npm run start",
     "deploy": "tcb framework deploy",
-    "deploy:server": "tcb framework deploy node",
-    "serve": "node ./index",
-    "test:mining": "node ./test/test-mining",
-    "test:juejin": "node ./test/test-juejin"
+    "deploy:server": "tcb framework deploy node"
   },
   "dependencies": {
     "axios": "^0.26.1",
